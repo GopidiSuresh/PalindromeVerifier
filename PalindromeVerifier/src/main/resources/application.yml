@@ -1,0 +1,16 @@
+server:
+  port: 8080
+ 
+spring:
+  application:
+    name: PalindromeVerifier
+    
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mysql
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: create
